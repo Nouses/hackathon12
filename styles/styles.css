@@ -1,17 +1,19 @@
 * {
     font-family: Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: cornsilk;
+    background-color: rgb(62, 243, 228);
 }
 
 .menu-btn{
     background-color: rgb(240, 103, 12);
     color: white;
-    padding: 10px 50px 10px 50px;
+    padding: 8px 40px 8px 40px;
     font-size: 18px;
     border: none;
     border-radius: 15px;
@@ -40,7 +42,7 @@ nav{
 }
 
 .menu-elementos a:hover{
-    background-color: #ddd;
+    background-color: rgb(221,221,221);
 }
 
 .contenedor:hover .menu-elementos{
