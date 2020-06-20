@@ -56,8 +56,9 @@ nav{
 /*ARTICULO DESPLEGABLE*/
 
 .desplegable {
-    background-color: #eee;
-    color: #444;
+    width: 400px;
+    background-color: rgb(62, 243, 228);
+    color: grey;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -65,15 +66,23 @@ nav{
     text-align: left;
     outline: none;
     font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin: 5px 35px 5px 35px;
 }
 
 .active,.desplegable:hover{
-    background-color: #ccc;
+    background-color: rgb(91, 245, 150);
+    color:black;
 }
 
 .articulo{
-    padding: 0 18px;
+    padding: 18px;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #e9f7fa;
+    color: black;
+    border-radius: 10px;
+    margin: 5px 35px 5px 35px;
+    text-align: center;
 }
