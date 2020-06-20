@@ -1,0 +1,52 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.menu-btn{
+    background-color: rgb(240, 103, 12);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+}
+
+.menu-elementos{
+    display: none;
+    position: absolute;
+    background-color:gold;
+    min-width: 160px;
+    border-radius: 15px;
+}
+
+.menu-elementos a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+    
+}
+
+.menu-elementos a:hover{
+    background-color: #ddd;
+}
+
+.contenedor:hover .menu-elementos{
+    display: block;
+}
+
+.contenedor:hover .menu-btn{
+    background-color: rgb(240, 10, 12)
+}
