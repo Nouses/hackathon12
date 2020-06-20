@@ -56,12 +56,11 @@ nav{
 /*ARTICULO DESPLEGABLE*/
 
 .desplegable {
-    width: 400px;
     background-color: rgb(62, 243, 228);
     color: grey;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 95%;
     border: none;
     text-align: left;
     outline: none;
