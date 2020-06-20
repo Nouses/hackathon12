@@ -1,3 +1,5 @@
+/*ARTICULO DESPLEGABLE*/
+
 let desplegable = document.getElementsByClassName("desplegable");
 
 for (let i = 0; i < desplegable.length; i++) {
@@ -12,4 +14,22 @@ for (let i = 0; i < desplegable.length; i++) {
     });
 }
 
+/* MENU MODAL */
 
+let book = document.getElementById("myBooks");
+let boton = document.getElementById("botonModal");
+let span = document.getElementsByClassName("cerrar")[0];
+
+boton.onclick = function() {
+book.style.display = "block";
+}
+
+span.onclick = function() {
+book.style.display = "none";
+}
+
+window.onclick = function(event) {
+if (event.target == book) {
+    book.style.display = "none";
+}
+}
